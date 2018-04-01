@@ -1,0 +1,142 @@
+.container {
+    max-width: 75%;
+    margin: auto;
+}
+
+.logo {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    background-image: url("imgs/neurocapability-favicon.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.desc {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 800px;
+    height: 145px;
+    border-radius: 25px;
+    border: 5px solid #1cbcbf;
+    text-align: center;
+    color: #1cbcbf;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.start-button-container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 370px;
+    height: 95px;
+}
+
+.start-button-container:hover .ready {
+    background-color: #1cbcbf;
+    color: white;
+    border-color: #127a7c;
+}
+
+.start-button-container:hover .in-game {
+    background-color: #FB3F51;
+    color: white;
+    border-color: #A0000F;
+}
+
+.start-button-container .ready {
+    margin: 10px auto 10px auto;
+    width: 350px;
+    height: 75px;
+    border-radius: 25px;
+    border: 5px solid #1cbcbf;
+    text-align: center;
+    line-height: 75px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #1cbcbf;
+}
+
+.start-button-container .in-game {
+    margin: 10px auto 10px auto;
+    width: 350px;
+    height: 75px;
+    border-radius: 25px;
+    border: 5px solid #FB3F51;
+    text-align: center;
+    line-height: 75px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #FB3F51;
+}
+
+.playing-field-container {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+}
+
+.playing-field-container > div {
+    margin: 0;
+    width: 450px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-top: 20px;
+    margin-left: 5px;
+    width: 70px;
+    height: 70px;
+    border: 5px solid #1cbcbf;
+    border-radius: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.card:hover, .hide-wall:hover {
+    border-color: #127a7c;
+}
+
+.hide-wall {
+    margin: 0;
+    position: relative;
+    top: -5px;
+    left: -5px;
+    width: 70px;
+    height: 70px;
+    border: 5px solid #1cbcbf;
+    border-radius: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("imgs/question.jpg");
+}
+
+footer {
+    margin-top: 20px;
+    height: 100px;
+    background-color: #1cbcbf;
+    color: #5f7b7c;
+    font-size: 20px;
+}
+
+footer .copyright, footer .link {
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: #5f7b7c;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
+

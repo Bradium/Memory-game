@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+<script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.25.0/babel.min.js"></script>
+<script type="text/babel" src="startButton.jsx"></script>
+<script type="text/babel" src="field.jsx"></script>
+<script type="text/javascript" src="hide-show-functions.js"></script>
+<script type="text/javascript" src="playingLogic.js"></script>
+
+<div class="container">
+    <div class="logo"></div>
+
+    <div class="desc">
+        <p>Добро пожаловать в игру "Тренировка памяти"!</p>
+        <p>Правила просты: открывайте одинаковые картинки,
+        пока не останется неизвестных.</p>
+        <p>Удачи!</p>
+    </div>
+
+    <div class="start-button-container"></div>
+
+    <div class="playing-field-container"></div>
+</div>
+<footer>
+    <div class="container">
+        <div class="copyright">Roman Knyazev 2018</div>
+        <div class="link"><a href="https://github.com/Bradium">https://github.com/Bradium</a></div>
+    </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "name": "MemoryGame",
+  "version": "1.0.0",
+  "dependencies": {},
+  "scripts": {
+    "start": "lite-server"
+  },
+  "devDependencies": {
+    "lite-server": "^2.2.1"
+  }
+}
